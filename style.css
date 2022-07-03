@@ -10,7 +10,7 @@
 .line{
     display:flex;
     flex-direction: column;
-    opacity:0.1;
+    opacity:0.5;
     border:3px;
     border-style: solid;
     border-color: black;
@@ -18,4 +18,9 @@
 .square{
     border-style: solid;
     border-color: black;
+}
+
+.square:hover{
+    background-color:red;
+    opacity: 1;
 }

@@ -16,3 +16,13 @@ for(let i=0;i<16;i++){
     }
     container.appendChild(line);
 }
+
+
+
+const squares=container.querySelectorAll(".square")
+squares.forEach(square =>{
+    square.addEventListener("mouseenter",function hovered(){
+    })
+        
+
+})
