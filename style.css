@@ -1,0 +1,21 @@
+
+.square {
+    height: 50px;
+    width :50px;
+    background-color: #555;
+}
+#container {
+    display: flex;
+}
+.line{
+    display:flex;
+    flex-direction: column;
+    opacity:0.1;
+    border:3px;
+    border-style: solid;
+    border-color: black;
+}
+.square{
+    border-style: solid;
+    border-color: black;
+}
