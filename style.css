@@ -1,16 +1,27 @@
+#bigcontainer{
+    display: flex;
+    justify-content:space-between;
+    width:1000
+}
 
+button{
+    align-self: flex-end;
+    align-self: start;
+}
 .square {
-    height: 50px;
-    width :50px;
+    height: 9px;
+    width:9px;
 }
 #container {
     display: flex;
+    width:960px;
+    height:960px;
+    justify-content: center;
 }
 .line{
     display:flex;
     flex-direction: column;
     opacity:0.5;
-    border:3px;
 }
 
 /*.square:hover{
@@ -20,10 +31,8 @@
 .hidden{
     background-color: blueviolet;
     opacity:1;
-    margin:3px;
 }
 .show{
     background-color: black;
     opacity:0.5;
-    margin:3px;
 }
