@@ -2,7 +2,6 @@
 .square {
     height: 50px;
     width :50px;
-    background-color: #555;
 }
 #container {
     display: flex;
@@ -12,15 +11,19 @@
     flex-direction: column;
     opacity:0.5;
     border:3px;
-    border-style: solid;
-    border-color: black;
-}
-.square{
-    border-style: solid;
-    border-color: black;
 }
 
-.square:hover{
+/*.square:hover{
     background-color:red;
     opacity: 1;
+}*/
+.hidden{
+    background-color: blueviolet;
+    opacity:1;
+    margin:3px;
+}
+.show{
+    background-color: black;
+    opacity:0.5;
+    margin:3px;
 }
